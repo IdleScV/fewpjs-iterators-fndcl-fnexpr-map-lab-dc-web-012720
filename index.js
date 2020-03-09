@@ -12,6 +12,8 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  tutorials.map
+  tutorials.map{ |string| 
+  
+  }
   return tutorials
 }
