@@ -23,8 +23,8 @@ const titleCased = () => {
      
      
      
-      ).join(' ')
-      
+      )
+    new.push(arr.join(" "))
     
   );
   return tutorials
