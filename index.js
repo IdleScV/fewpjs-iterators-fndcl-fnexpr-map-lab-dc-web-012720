@@ -12,5 +12,6 @@ const tutorials = [
 ];
 
 const titleCased = () => {
+  tutorials.map
   return tutorials
 }
