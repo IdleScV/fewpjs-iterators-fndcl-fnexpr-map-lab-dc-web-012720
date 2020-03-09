@@ -15,7 +15,7 @@ const titleCased = () => {
   tutorials.map( string =>
   
     string.split(' ').map( word => 
-    word[0]
+    word[0].toUpperCase();
     
     );
   );
