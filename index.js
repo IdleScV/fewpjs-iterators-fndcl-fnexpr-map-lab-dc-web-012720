@@ -12,8 +12,8 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  tutorials.map{ |string| 
-  
+  tutorials.map{ string =>
+    string.split(' ')
   };
   return tutorials
 }
