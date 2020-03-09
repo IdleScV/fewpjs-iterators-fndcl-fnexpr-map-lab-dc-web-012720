@@ -13,8 +13,10 @@ const tutorials = [
 
 const titleCased = () => {
   tutorials.map( string =>
+  
     string.split(' ').map( word => 
-    word
+    word[0]
+    
     );
   );
   return tutorials
